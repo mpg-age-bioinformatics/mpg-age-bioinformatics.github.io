@@ -1,0 +1,30 @@
+# Site settings
+title: Bioinformatics Core Facility
+email: bioinformatics@age.mpg.de
+description: > # this means to ignore newlines until "baseurl:"
+    Bioinformatics Core Facility
+    Max Planck Institute for Biology of Ageing
+    Joseph-Stelzmann-Str. 9b
+    D-50931 Cologne, Germany
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "" # the base hostname & protocol for your site
+
+# User setting
+owner: Bioinformatics Core Facility
+email: bioinformatics@age.mpg.de
+facebook_username:
+twitter_username:
+github_username: mpg-age-bioinformatics
+address:
+  - line: Max Planck Institute for Biology of Ageing 
+  - line: Joseph-Stelzmann-Str. 9b
+  - line: D-50931 Cologne, Germany
+  # Feel free to add more lines here 
+telephone: +49 (0)221 37970-0
+copyright:
+
+# API settings
+google_api_key: AIzaSyA_rtAAV0VcTYHUy6SlOwCnbL3BhrX1SKs
+
+# Build settings
+markdown: kramdown

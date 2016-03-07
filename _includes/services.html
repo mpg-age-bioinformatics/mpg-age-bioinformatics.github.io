@@ -1,0 +1,173 @@
+<script type="text/javascript" language="JavaScript"><!--
+function HideContent(d) {
+document.getElementById(d).style.display = "none";
+}
+function ShowContent(d) {
+document.getElementById(d).style.display = "block";
+}
+function ReverseDisplay(d) {
+if(document.getElementById(d).style.display == "none") { document.getElementById(d).style.display = "block"; }
+else { document.getElementById(d).style.display = "none"; }
+}
+//--></script>
+
+<style type="text/css">
+a.white {
+color: White ;
+}
+</style>
+
+
+
+<!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
+<section id="services" class="services bg-primary">
+  <div class="container">
+    <div class="row text-center">
+      <div class="col-lg-10 col-lg-offset-1">
+        <h2>Our Services</h2>
+        <hr class="small">
+        <div class="row">
+
+          <div class="col-md-3 col-sm-6">
+            <div class="service-item">
+              <span class="fa-stack fa-4x">
+              <i class="fa fa-circle fa-stack-2x"></i>
+              <i class="fa fa-flask fa-stack-1x text-primary"></i>
+            </span>
+              <h4>
+                <strong>Analytics</strong>
+              </h4>
+              <!--p--><!--Lorem ipsum dolor sit amet, consectetur adipisicing elit.--><!--/p-->
+              <a href="javascript:ReverseDisplay('analytics_more')" class="btn btn-light">Show/Hide</a>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="service-item">
+              <span class="fa-stack fa-4x">
+              <i class="fa fa-circle fa-stack-2x"></i>
+              <i class="fa fa-compass fa-stack-1x text-primary"></i>
+            </span>
+              <h4>
+                <strong>Software</strong>
+              </h4>
+              <!--p--><!--Lorem ipsum dolor sit amet, consectetur adipisicing elit.--><!--//p-->
+              <a href="javascript:ReverseDisplay('software_more')" class="btn btn-light">Show/Hide</a>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="service-item">
+              <span class="fa-stack fa-4x">
+              <i class="fa fa-circle fa-stack-2x"></i>
+              <i class="fa fa-cloud fa-stack-1x text-primary"></i>
+            </span>
+              <h4>
+		<strong>Platforms</strong>
+	      </h4>
+              <!--p--><!--Lorem ipsum dolor sit amet, consectetur adipisicing elit.--><!--//p-->
+              <a href="javascript:ReverseDisplay('platforms_more')" class="btn btn-light">Show/Hide</a>
+            </div>
+          </div>
+          <div class="col-md-3 col-sm-6">
+            <div class="service-item">
+              <span class="fa-stack fa-4x">
+              <i class="fa fa-circle fa-stack-2x"></i>
+              <i class="fa fa-shield fa-stack-1x text-primary"></i>
+            </span>
+              <h4>
+                <strong>Infrastructure</strong>
+              </h4>
+              <!--p--><!--Lorem ipsum dolor sit amet, consectetur adipisicing elit.--><!--/p-->
+              <a href="javascript:ReverseDisplay('infrastructure_more')" class="btn btn-light">Show/Hide</a>
+            </div>
+          </div>
+
+	  <div id="analytics_more" class="col-lg-12 text-center" style="display:none;">
+	    <p class="lead"><h2><b>Analytics</b></h2>
+            <div class="service-item">
+              <span class="fa-stack fa-4x">
+              <i class="fa fa-circle fa-stack-2x"></i>
+              <i class="fa fa-flask fa-stack-1x text-primary"></i>
+	    </span></div>
+	    <p class="lead">We work <a class="white" target="_blank" href="http://www.agilemanifesto.org">agile</a>!<br>
+	    We work together with the users daily throughout the project.<br>
+	    Our analytics portfolio grows on-demand with the needs of our users.<br>
+	    Non-standard projects are highly welcome!<br><br><br></p>
+              <div class="col-md-3 col-sm-6">
+                <p class="lead"><b>RNAseq</b><br><br>Differential gene expression<br><br>circular RNAs<br><br>Editing<br><br>Methylation<br><br>Variant Calling<br><br>Annotation<br><br>Gene Set Enrichment Analysis<br><br>Automated DAVID queries</p>
+              </div>
+	      <div class="col-md-3 col-sm-6">
+		<p class="lead"><b>DNAseq</b><br><br>Exome Sequencing<br><br>Variant Calling<br><br>Duplex Sequencing<br><br>Methylation</p>
+	      </div>
+	      <div class="col-md-3 col-sm-6">
+	        <p class="lead"><b>NGS (others)</b><br><br>Ribosome footprint profiling<br><br>Manipulation of fastq and SAM files</p>
+	      </div>
+              <div class="col-md-3 col-sm-6">
+                <p class="lead"><b>Others</b><br><br>Motif enrichment analysis<br><br>High throughput primer design<br><br>Metabolomics<br><br>High Throughput Screenings<br><br></p>
+              </div>
+            </p>
+          <br><br>
+          </div>
+
+          <div id="software_more" class="col-lg-12 text-center" style="display:none;">
+            <p class="lead"><h2><b>Software</b></h2><br>
+              <div class="service-item">
+              <span class="fa-stack fa-4x">
+              <i class="fa fa-circle fa-stack-2x"></i>
+              <i class="fa fa-compass fa-stack-1x text-primary"></i>
+	    </span></div>
+	    <p class="lead">We develop software on-demand working either on the further development of existing tools or on the build of modules that can be easely integrated with other tools for the generation of analysis pipelines.<br>
+ 	    More than 90% of the time most of our work is based on pre-existing software.<br><br>
+    	    </p>
+            <p class="lead"><b>Examples</b><br><br>
+	    <a class="white" target="_blank" href="https://github.com/mpg-age-bioinformatics/AGEpy">AGEpy</a>
+            <br><br><a class="white" target="_blank" href="https://github.com/mpg-age-bioinformatics/Duplex-Sequencing">Duplex Sequencing</a>
+	    <br><br><a class="white" target="_blank" href="https://github.com/mpg-age-bioinformatics/htseq-tools/blob/master/aDiff">aDiff</a>
+            <br><br><a class="white" target="_blank" href="https://github.com/mpg-age-bioinformatics/htseq-tools">htseq-tools</a>
+	    <br><br>
+	    </p>
+            </p>
+          </div>
+
+          <div id="platforms_more" class="col-lg-12 text-center" style="display:none;">
+            <p class="lead"><h2><b>Platforms</b></h2><br>
+              <div class="service-item">
+              <span class="fa-stack fa-4x">
+              <i class="fa fa-circle fa-stack-2x"></i>
+              <i class="fa fa-cloud fa-stack-1x text-primary"></i>
+       	      </span>
+	    </div>
+
+	    <p class="lead">We mantain and support a wide variety of platforms and work together with IT service partners on the delivery and integration of external platorms at our institution.
+	    <br><br><br><b>Examples</b><br><br>Redmine<br><br>GitLab<br><br>RStudio server (with HPC integration)<br><br>Slurm<br><br>Environment Modules Project<br><br>Databases (eg. indexed Ensembl genomes, motifs databases)<br><br>Galaxy (internal / now at the MPCDF)<br><br>ownCloud (IT / now at the MPCDF)<br><br>GitHub Enterprise(MPI-Molecular Genetics)</p>
+	    <br><br>
+
+            </p>
+          </div>
+
+          <div id="infrastructure_more" class="col-lg-12 text-center" style="display:none;">
+            <p class="lead"><b>Infrastructure</b><br>
+            <div class="service-item">
+              <span class="fa-stack fa-4x">
+              <i class="fa fa-circle fa-stack-2x"></i>
+              <i class="fa fa-shield fa-stack-1x text-primary"></i>
+            </span>
+ 	    </div>
+            <p class="lead">Our day is spent on the cluster.<br><br>
+	    Working tightly with the IT department, and strongly supported by our dedicatd systems administrator we assure that no project is limited by computational power or any other type of IT infrastructure.<br><br>
+            Our HPC cluster nodes are supported by a distributed parallel file system (BeeGFS) running on an infiniband network. Nodes have a minimum of 40 processors and 256GB of memory.<br><br>
+            We make sure that 80% of jobs get started at their respective maximum performance within 20 minutes of submission and 98% of jobs within 3 hours.<br><br>
+	    </p>
+            </p>
+          </div>
+
+
+
+        </div>
+        <!-- /.row (nested) -->
+      </div>
+      <!-- /.col-lg-10 -->
+    </div>
+    <!-- /.row -->
+  </div>
+  <!-- /.container -->
+</section>

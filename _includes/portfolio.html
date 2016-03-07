@@ -1,0 +1,79 @@
+<script type="text/javascript" language="JavaScript"><!--
+function HideContent(d) {
+document.getElementById(d).style.display = "none";
+}
+function ShowContent(d) {
+document.getElementById(d).style.display = "block";
+}
+function ReverseDisplay(d) {
+if(document.getElementById(d).style.display == "none") { document.getElementById(d).style.display = "block"; }
+else { document.getElementById(d).style.display = "none"; }
+}
+//--></script>
+
+
+<section id="portfolio" class="portfolio">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10 col-lg-offset-1 text-center">
+        <h2>People</h2>
+        <hr class="small">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="portfolio-item">
+	      <a href="mailto:jorge.boucas@age.mpg.de?Subject=from%20website" target="_top">
+                <img class="img-portfolio img-responsive" src="img/portfolio-1.jpg" title="jorge.boucas@age.mpg.de">
+		<div class="col-lg-12 text-center"><p>Jorge Boucas, Ph.D. | Head of Bioinformatics | +49 (0)221 37970 312</p></div>
+            </a></div>
+          </div>
+          <div class="col-md-6">
+            <div class="portfolio-item">
+              <a href="mailto:sven.templer@age.mpg.de?Subject=from%20website" target="_top">
+                <img class="img-portfolio img-responsive" src="img/portfolio-2.jpg" title="sven.templer@age.mpg.de">
+		<div class="col-lg-12 text-center"><p>Sven Templer | Analyst & Programmer | +49 (0)221 37970 325</p></div>
+              </a>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="portfolio-item">
+              <a href="mailto:kamel.jabbari@age.mpg.de?Subject=from%20website" target="_top">
+                <img class="img-portfolio img-responsive" src="img/portfolio-3.jpg" title="kamel.jabbari@age.mpg.de">
+              	<div class="col-lg-12 text-center"><p>Kamel Jabbari, Ph.D. | Analyst | +49 (0)221 37970 313</p></div>
+	      </a>
+	    </div>
+          </div>
+          <div class="col-md-6">
+            <div class="portfolio-item">
+              <a href="mailto:bernd.wozny@age.mpg.de?Subject=from%20website" target="_top">
+                <img class="img-portfolio img-responsive" src="img/portfolio-4.jpg" title="bernd.wozny@age.mpg.de">
+              	<div class="col-lg-12 text-center"><p>Bernd Wozny | Systems Administrator | +49 (0)221 37970 314</p></div>
+	      </a>
+	    </div>
+          </div>
+        </div>
+        <!-- /.row (nested) -->
+	<a href="javascript:ReverseDisplay('oldguys')" class="btn btn-dark">Show/hide past members</a>
+ 	<br>
+	<br>
+	<div id="oldguys" style="display:none;">
+	<div class="row">
+          <div class="col-md-6">
+            <div class="portfolio-item">
+              <a href="#">
+                <img class="img-portfolio img-responsive" src="img/portfolio-5.jpg">
+                <div class="col-lg-12 text-center"><p>Tobias Jakobi | Developer</p></div>
+              </a>
+            </div>
+          </div>
+        </div>
+	</div>
+
+
+
+      </div>
+      <!-- /.col-lg-10 -->
+    </div>
+    <!-- /.row -->
+  </div>
+  <!-- /.container -->
+</section>
