@@ -4,13 +4,31 @@ p.big {
     line-height: 3.8;
 }
 </style>
+
+@media all and (min-width: 480px) {
+    .deskContent {display:block;}
+    .phoneContent {display:none;}
+}
+
+@media all and (max-width: 479px) {
+    .deskContent {display:none;}
+    .phoneContent {display:block;}
+}
+    
+    
 </head>
 
 
 <header id="top" class="header">
 <div class="text-vertical-center", style="position:relative;">
-    <h1 style="margin-top:60px;">Bioinformatics Core Facility</h1>
-    <h3 style="margin-top:20px;margin-bottom:20px;">Max Planck Institute for Biology of Ageing</h3>
+    <div class="deskContent">
+        <h1 style="margin-top:60px;">Bioinformatics Core Facilitd</h1>
+        <h3 style="margin-top:20px;margin-bottom:20px;">Max Planck Institute for Biology of Ageing</h3>
+    </div>
+    <div class="phoneContent">
+        <h2 style="margin-top:60px;">Bioinformatics Core Facilitm</h2>
+        <h4 style="margin-top:20px;margin-bottom:20px;">Max Planck Institute for Biology of Ageing</h4>
+    </div>
     <p class="big">
     <a href="https://flaski.age.mpg.de" class="btn btn-dark btn-lg">Apps</a>
     <a href="https://flaski.age.mpg.de/index#submissions" class="btn btn-dark btn-lg">Pipelines</a>
